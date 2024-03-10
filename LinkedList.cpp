@@ -26,6 +26,33 @@ public:
         key = ch;
     }
 
+    //Function to use insertion sort with linked lists
+    void insertionSort() {
+        Node* sorted = nullptr;
+        Node* current = head;
+
+        while (current != nullptr) {
+            Node* next = current->next;
+            Node* newNode = new Node(current->data, current->dataK1, current->dataK2);
+
+            //Find the correct position for the new node in the sorted list
+            if (sorted == nullptr || sorted->data >= newNode->data) {
+                newNode->next = sorted;
+                sorted = newNode;
+            }
+            else {
+                Node* currentSorted = sorted;
+                while (currentSorted->next != nullptr && currentSorted->next->data < newNode->data) {
+                    currentSorted = currentSorted->next;
+                }
+                newNode->next = currentSorted->next;
+                currentSorted->next = newNode;
+            }
+            current = next;
+        }
+        head = sorted;
+    }
+
     //Function to insert a new node at the end of the list
     void insertAtEnd(int intValue, char charValueK1, char charValueK2) {
         Node* newNode = new Node(intValue, charValueK1, charValueK2);

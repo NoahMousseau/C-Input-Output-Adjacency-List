@@ -11,33 +11,6 @@
 
 using namespace std;
 
-//Function to use insertionSort with linked lists
-void insertionSort(Node** head) {
-    Node* sorted = nullptr;
-    Node* current = *head;
-
-    while (current != nullptr) {
-        Node* next = current->next;
-        Node* newNode = new Node(current->data, current->dataK1, current->dataK2);
-
-        // Find the correct position for the new node in the sorted list
-        if (sorted == nullptr || sorted->data >= newNode->data) {
-            newNode->next = sorted;
-            sorted = newNode;
-        }
-        else {
-            Node* currentSorted = sorted;
-            while (currentSorted->next != nullptr && currentSorted->next->data < newNode->data) {
-                currentSorted = currentSorted->next;
-            }
-            newNode->next = currentSorted->next;
-            currentSorted->next = newNode;
-        }
-        current = next;
-    }
-    *head = sorted;
-}
-
 int main() {
     //Code for user interaction
     int userChoice = 0;
@@ -186,7 +159,7 @@ int main() {
         //Sort linked lists
         for (LinkedList& ll : Vertices) {
             Node* head = ll.getHead();
-            insertionSort(&head); //Call insertionSort
+            ll.insertionSort(); //Call insertionSort
         }
 
         //Display linked lists
