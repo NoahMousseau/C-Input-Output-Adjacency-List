@@ -7,7 +7,7 @@
 #include <unordered_map>
 
 //Including necessary files
-#include "LinkedList.cpp"
+#include "LinkedList.h"
 
 using namespace std;
 
@@ -18,7 +18,7 @@ int main() {
     cout << "Primary operation of inserting nodes into corresponding Linked Lists: 1" << endl;
     cout << "Using insertionSort to sort Linked Lists: 2" << endl;
     cout << "Using bubbleSort to sort Linked Lists: 3" << endl;
-    cout << "Using mergetsort to sort Linked Lists: 4" << endl;
+    cout << "Using mergesort to sort Linked Lists: 4" << endl;
     cin >> userChoice;
     cout << endl;
 

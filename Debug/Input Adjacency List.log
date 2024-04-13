@@ -1,4 +1,17 @@
-﻿  LinkedList.cpp
+﻿  BubbleSort.cpp
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\LinkedList.h(4,11): warning C4099: 'Node': type name first seen using 'struct' now seen using 'class'
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\Node.cpp(2): message : see declaration of 'Node'
+  InsertionSort.cpp
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\LinkedList.h(4,11): warning C4099: 'Node': type name first seen using 'struct' now seen using 'class'
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\Node.cpp(2): message : see declaration of 'Node'
+  LinkedList.cpp
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\LinkedList.h(4,11): warning C4099: 'Node': type name first seen using 'struct' now seen using 'class'
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\Node.cpp(2): message : see declaration of 'Node'
   Main.cpp
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\LinkedList.h(4,11): warning C4099: 'Node': type name first seen using 'struct' now seen using 'class'
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\Node.cpp(2): message : see declaration of 'Node'
+  MergeSort.cpp
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\LinkedList.h(4,11): warning C4099: 'Node': type name first seen using 'struct' now seen using 'class'
+D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\Node.cpp(2): message : see declaration of 'Node'
   Generating Code...
-  Input Adjacency List.vcxproj -> D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Debug\Input Adjacency List.exe
+  Input Adjacency List.vcxproj -> D:\Noah's Stuff\College\Year 4 Semester 2\Algorithm Design and Analysis\Input-Output-Adjacency-List\Input-Output-Adjacency-List\Debug\Input Adjacency List.exe
