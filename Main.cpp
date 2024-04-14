@@ -12,17 +12,17 @@
 using namespace std;
 
 int main() {
-    //Code for user interaction
-    int userChoice = 0;
-    cout << "Choose method of sorting:" << endl;
-    cout << "Primary operation of inserting nodes into corresponding Linked Lists: 1" << endl;
-    cout << "Using insertionSort to sort Linked Lists: 2" << endl;
-    cout << "Using bubbleSort to sort Linked Lists: 3" << endl;
-    cout << "Using mergesort to sort Linked Lists: 4" << endl;
-    cin >> userChoice;
-    cout << endl;
+    //userChoice determines which algorithm is used
+    //1 displays lists
+    //2 uses insertionSort
+    //3 uses bubbleSort
+    //4 uses mergeSort
+    int userChoice = 3;
+
+    //We use bubbleSort for our chosen algorithm
 
     if (userChoice == 1) {
+        cout << "Primary operation of inserting nodes into corresponding Linked Lists:" << endl;
         //Read input from the file
         ifstream inputFile("input.txt");
 
@@ -96,6 +96,7 @@ int main() {
         inputFile.close();
     }
     else if (userChoice == 2) {
+        cout << "Using insertionSort to sort Linked Lists:" << endl;
         //Read input from the file
         ifstream inputFile("input.txt");
 
@@ -176,6 +177,7 @@ int main() {
         //Close the file
         inputFile.close();
     } else if (userChoice == 3) {
+        cout << "Using bubbleSort to sort Linked Lists:" << endl;
         //Read input from the file
         ifstream inputFile("input.txt");
 
@@ -257,6 +259,7 @@ int main() {
         inputFile.close();
     }
     else if (userChoice == 4) {
+    cout << "Using mergesort to sort Linked Lists:" << endl;
         //Mergesort Implementation
         //Read input from the file
         ifstream inputFile("input.txt");
